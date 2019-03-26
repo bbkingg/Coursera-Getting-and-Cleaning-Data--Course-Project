@@ -95,17 +95,17 @@ Weighted average of the frequency components of the frequency-domain body accele
 
 FrequencyDomain.Body.Acceleration.Mean-(X,Y,Z)
 
-Average frequency-domain body acceleration jerk in X,Y,Z directions:
+Mean frequency-domain body acceleration jerk in X,Y,Z directions:
 
 FrequencyDomain.Body.Acceleration.StandartDeviation-(X,Y,Z)
 
 Standard deviation of the frequency-domain body acceleration jerk in X,Y,Z directions:
 
-FrequencyDomain.Body.AccelerationJerk.Mean-(X,Y,Z)
-
-Weighted average of the frequency components of the frequency-domain body acceleration jerk in X,Y,Z directions:
-
 FrequencyDomain.Body.AccelerationJerk.StandartDeviation-(X,Y,Z)
+
+Mean of the frequency components of the frequency-domain body acceleration jerk in X,Y,Z directions:
+
+FrequencyDomain.Body.AccelerationJerk.Mean-(X,Y,Z)
 
 Average frequency-domain body angular velocity in X,Y,Z directions:
 
@@ -115,23 +115,23 @@ Standard deviation of the frequency-domain body angular velocity in X,Y,Z direct
 
 FrequencyDomain.Body.Angular.Velocity..StandartDeviation-(X,Y,Z)
 
-Weighted average of the frequency components of the frequency-domain body angular velocity in X,Y,Z directions:
+Magnitude Mean of the frequency components of the frequency-domain body angular velocity in X,Y,Z directions:
 
 FrequencyDomain.Body.Acceleration.Magnitude..Mean(X,Y,Z)
 
-Average, standard deviation, and average of the frequency components of the frequency-domain magnitude of body acceleration:
+Mean, standard deviation, and average of the frequency components of the frequency-domain magnitude of body acceleration:
 
 FrequencyDomain.Body.Acceleration.Magnitude..Mean                          
 FrequencyDomain.Body.Acceleration.Magnitude..StandartDeviation           
 FrequencyDomain.BodyBody.AccelerationJerk.Magnitude..Mean
 
-Average, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk:
+Mean, standard deviation, and weighted average of the frequency components of the frequency-domain magnitude of body acceleration jerk:
 
 FrequencyDomain.BodyBody.AccelerationJerk.Magnitude..StandartDeviation    
 FrequencyDomain.BodyBody.Angular.Velocity..Magnitude..Mean                
 FrequencyDomain.BodyBody.Angular.Velocity..Magnitude..StandartDeviation
 
-Average, standard deviation, of the frequency components of the frequency-domain magnitude of body angular velocity:
+Mean, standard deviation, of the frequency components of the frequency-domain magnitude of body angular velocity:
 
 FrequencyDomain.BodyBody.Angular.Velocity.Jerk.Magnitude..Mean            
 FrequencyDomain.BodyBody.Angular.Velocity.Jerk.Magnitude..StandartDeviation
