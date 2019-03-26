@@ -12,9 +12,9 @@ run_analysis.R, the R script that was used to create the data set (see the Creat
 
 Design Process
 
-First step of the code merges the training and test data for creating one dataset. In the second step, the measurements on the mean and standard deviation were extracted 
-for each measurement (68 variables extracted from the original 561), and then the mean of each measurement were taken by each subject and activity, 
-resulting in the final data set. These step can be listed as follows.
+First step of the code merges the training and test data for creating one dataset. In the second step, the measurements on the mean and standard deviation were extracted for each measurement, and then the mean of each measurement were taken by each subject and activity,resulting in the final data set. The final dataset contains all the average measures for each subject and activity type (30 subjects * 6 activities = 180 rows). 
+
+These step can be listed as follows.
 
 Read data.
 Merge the training and the test sets to create one data set.
@@ -23,4 +23,5 @@ Use descriptive activity names to name the activities in the data set.
 Appropriately label the data set with descriptive variable names.
 Create a second, independent tidy set with the average of each variable for each activity and each subject.
 Write the data set to the tidy_data.txt file.
+
 
