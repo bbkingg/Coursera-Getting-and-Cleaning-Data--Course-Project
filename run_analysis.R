@@ -1,8 +1,6 @@
 library(dplyr)
 library(data.table)
 
-setwd("/Users/berkinsolak/Desktop/assignement - getting clean data")
-
 # loading the training data
 X_train=fread("train/X_train.txt")
 y_train=fread("train/y_train.txt")
